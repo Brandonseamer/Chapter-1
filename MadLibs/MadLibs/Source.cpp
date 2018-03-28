@@ -18,7 +18,7 @@ int main()
 	int bSecondNumberChosenByUser;
 	int cTheResultOfaMinusB;
 	
-	std::cout << "Wlecom to my Mad Libs. \n\n" << std::endl;
+	std::cout << "Welcome to my Mad Libs. \n\n" << std::endl;
 	std::cout << "Pick your least favorite color. >>> " << std::endl;
 	std::cin >> color;
 	std::cout << "Pick a word that ends in est. >>>" << std::endl;
