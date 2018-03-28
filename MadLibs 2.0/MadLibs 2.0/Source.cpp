@@ -36,6 +36,7 @@ int main()
 	std::cout << "The only food that " << personIdiot << " knows how to make is tacos. Causing " << name << "'s foodtruck to become only a mere tacotruck." << std::endl;
 	std::cout << "Additionally, because " << personIdiot << " is a terrible cook, the tacotruck soon became bankrupt, ruining" << name << "'s credit score, now only being " << resultNumber <<". " << std::endl;
 	std::cout << "Fortunately, after having their credit score lowered by " << secondNumber << ". " << name << " will not be able to attempt to host a business again, because they can no longer receive a loan." << std::endl;
+	std::cout << "\n\nHope you had fun - Brandon Seamer" << std::endl;
 
 
 
