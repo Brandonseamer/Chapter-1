@@ -4,17 +4,49 @@
 
 
 #include <iostream>
+#include <string>
+
+int userInput1;
+int userInput2;
+std::string userInput3;
+std::string	userInputOperator;
+
 int main()
 {
-	std::cout << "seven + three = " << 7 + 3 << std::endl;
-	std::cout << "7 - 3 = " << 7 - 3 << std::endl;
-	std::cout << "7 X 3 = " << 7 * 3 << std::endl;
-	std::cout << "7.0 / 3.0 = " << 7.0 / 3.0 << std::endl;
-	std::cout << "7 % 3 = " << 7 % 3 << std::endl;
+	
+	do
+	{
+		std::cout << "Would you like to add, subtract, multiply, or divide? " << std::endl;
+		std::cin >> userInputOperator;
+		std::cout << "What would you like to be your first input? " << std::endl;
+		std::cin >> userInput1;
+		std::cout << "What would you like to be your second input? " << std::endl;
 
+		if (userInputOperator == "add")
+		{
+			std::cout << userInput1 + userInput2 << std::endl;
+		}
+		if (userInputOperator == "subtract")
+		{
+			std::cout << userInput1 - userInput2 << std::endl;
+		}
+		if (userInputOperator == "multiply")
+		{
+			std::cout << userInput1 * userInput2 << std::endl;
+		}
+		if (userInputOperator == "add")
+		{
+			std::cout << userInput1 / userInput2 << std::endl;
+		}
+		else{
 
-	std::cout << "7 + 3 * 5 = " << 7 + 3 * 5 << std::endl;
-	std::cout << "(7+3) * 5 = " << (7 + 3) * 5 << std::endl;
+		}
+		std::cout << "Would you like to continue?" << std::endl;
+		std::cin >> userInput3;
+	} while (userInput3 == "yes");
+	
+	
+	
 	system("pause");
 	return 0;
 
