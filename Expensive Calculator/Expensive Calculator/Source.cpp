@@ -21,20 +21,20 @@ int main()
 		std::cout << "What would you like to be your first input? " << std::endl;
 		std::cin >> userInput1;
 		std::cout << "What would you like to be your second input? " << std::endl;
-
+		std::cin >> userInput2;
 		if (userInputOperator == "add")
 		{
 			std::cout << userInput1 + userInput2 << std::endl;
 		}
-		if (userInputOperator == "subtract")
+		else if (userInputOperator == "subtract")
 		{
 			std::cout << userInput1 - userInput2 << std::endl;
 		}
-		if (userInputOperator == "multiply")
+		else if (userInputOperator == "multiply")
 		{
 			std::cout << userInput1 * userInput2 << std::endl;
 		}
-		if (userInputOperator == "add")
+		else if (userInputOperator == "add")
 		{
 			std::cout << userInput1 / userInput2 << std::endl;
 		}
